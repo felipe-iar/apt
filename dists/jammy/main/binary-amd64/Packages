@@ -1,15 +1,15 @@
 Package: bxarm
-Version: 9.50.1
+Version: 9.50.2
 Maintainer: Felipe Torrezan <felipe.torrezan@iar.com>
 Depends: libc6
 Architecture: amd64
 Homepage: https://iar.com/bxarm
 Priority: optional
 Section: devel
-Filename: pool/main/b/bxarm/bxarm_9.50.1_amd64.deb
-Size: 2634
-SHA256: fc1756c32fc3268d12f7a0cb2039153dcc13e91e4f7e6bc299f356dd4292ae7e
-SHA1: 0cbf6f4c60e5f8f7983f44d6460171e283e6b415
-MD5sum: 0c80d40d4c4fc3778e1b3f26cda3b087
+Filename: pool/main/b/bxarm/bxarm_9.50.2_amd64.deb
+Size: 7512
+SHA256: ad1b8b8060198af23eaea823583cfd8f7e23bbc718c640b1e8b517417f644855
+SHA1: 5f6009ebc2329b1600747ccd1d0c29150a6ecb09
+MD5sum: b2c7f08ec0c2692e8604a54b3561eb9b
 Description: The best embedded compiler in the world
 
