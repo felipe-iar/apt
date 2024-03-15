@@ -1,0 +1,7 @@
+Origin: felipe-iar.github.io/apt
+Label: felipe-iar.github.io/apt 
+Codename: jammy
+Architectures: amd64
+Components: main
+Description: Build tools repository
+SignWith: 84AA4B457EA04B17 

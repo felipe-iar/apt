@@ -1,0 +1,5 @@
+Component: main
+Origin: felipe-iar.github.io/apt
+Label: felipe-iar.github.io/apt
+Architecture: amd64
+Description: Build tools repository

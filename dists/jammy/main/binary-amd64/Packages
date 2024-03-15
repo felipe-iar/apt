@@ -1,0 +1,15 @@
+Package: hello
+Version: 0.0.1
+Maintainer: Felipe Torrezan <felipe.torrezan@iar.com>
+Depends: libc6
+Architecture: amd64
+Homepage: http://example.com
+Priority: optional
+Section: devel
+Filename: pool/main/h/hello/hello_0.0.1_amd64.deb
+Size: 2142
+SHA256: 655c607bb718c37bc7304cabb274311362306340553aba6e666dba399b3cef93
+SHA1: 2da97fa386abfdf992c1a3d5b9e83b41c3ea3303
+MD5sum: 3f3948a067f8e032b6f2951da1d8870e
+Description: A program that prints hello
+
