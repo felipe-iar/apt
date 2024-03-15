@@ -1,0 +1,32 @@
+<html>
+  <head>
+  <title>IAR APT Repository</title>
+  </head>
+  <body>
+  <h1>IAR Build Tools repository</h1>
+
+  <p>This is IAR third-party repository, which we use for hosting our own Ubuntu packages.</p>
+
+  <p>We currently support Ubuntu 22.04 on our repository. The repository supports x86 (64-bit only).</p>
+
+	<ol>
+			<li>
+				<p>If you are using a <a href="https://wiki.ubuntu.com/Minimal">minimal</a> Ubuntu image or a Docker image, you may need to install the following packages:</p>
+
+<pre>
+sudo apt update
+sudo apt install -y curl apt-transport-https
+curl https://felipe-iar.github.io/apt/iar.asc | gpg --dearmor > iar.gpg
+sudo install -o root -g root -m 644 iar.gpg /etc/apt/trusted.gpg.d/
+sudo sh -c 'echo "deb [arch=amd64] https://felipe-iar.github.io/apt jammy main" > /etc/apt/sources.list.d/iar.list'
+sudo apt-get update
+sudo apt-get install bxarm
+iccarm --version
+</pre>
+        
+        <p>
+			</li>
+   </ol>
+  </body>
+</html>
+

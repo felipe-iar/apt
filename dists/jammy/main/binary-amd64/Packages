@@ -7,9 +7,9 @@ Homepage: https://iar.com/bxarm
 Priority: optional
 Section: devel
 Filename: pool/main/b/bxarm/bxarm_9.50.1_amd64.deb
-Size: 2148
-SHA256: c944445646165c60e1c50874f98f716075ee3a202ba128cd298f1ff69d4ddc89
-SHA1: e17285162b8ac053e994b7b4e0f0fce9b05b15a9
-MD5sum: 1a6327d3d34dd112d263fc033826b37b
+Size: 2634
+SHA256: fc1756c32fc3268d12f7a0cb2039153dcc13e91e4f7e6bc299f356dd4292ae7e
+SHA1: 0cbf6f4c60e5f8f7983f44d6460171e283e6b415
+MD5sum: 0c80d40d4c4fc3778e1b3f26cda3b087
 Description: The best embedded compiler in the world
 
