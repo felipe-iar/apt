@@ -1,15 +1,15 @@
-Package: hello
-Version: 0.0.1
+Package: bxarm
+Version: 9.50.1
 Maintainer: Felipe Torrezan <felipe.torrezan@iar.com>
 Depends: libc6
 Architecture: amd64
-Homepage: http://example.com
+Homepage: https://iar.com/bxarm
 Priority: optional
 Section: devel
-Filename: pool/main/h/hello/hello_0.0.1_amd64.deb
-Size: 2142
-SHA256: 655c607bb718c37bc7304cabb274311362306340553aba6e666dba399b3cef93
-SHA1: 2da97fa386abfdf992c1a3d5b9e83b41c3ea3303
-MD5sum: 3f3948a067f8e032b6f2951da1d8870e
-Description: A program that prints hello
+Filename: pool/main/b/bxarm/bxarm_9.50.1_amd64.deb
+Size: 2148
+SHA256: c944445646165c60e1c50874f98f716075ee3a202ba128cd298f1ff69d4ddc89
+SHA1: e17285162b8ac053e994b7b4e0f0fce9b05b15a9
+MD5sum: 1a6327d3d34dd112d263fc033826b37b
+Description: The best embedded compiler in the world
 
