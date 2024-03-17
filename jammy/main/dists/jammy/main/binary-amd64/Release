@@ -1,7 +1,0 @@
-Origin: jammy/main jammy
-Label: jammy/main jammy
-Archive: jammy
-Suite: jammy
-Codename: jammy
-Architecture: amd64
-Component: main

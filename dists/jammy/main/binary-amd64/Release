@@ -1,5 +1,7 @@
-Component: main
-Origin: felipe-iar.github.io/apt
-Label: felipe-iar.github.io/apt
+Origin: jammy/main jammy
+Label: jammy/main jammy
+Archive: jammy
+Suite: jammy
+Codename: jammy
 Architecture: amd64
-Description: Build tools repository
+Component: main
