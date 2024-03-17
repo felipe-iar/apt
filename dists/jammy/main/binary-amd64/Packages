@@ -20,13 +20,13 @@ Section: devel
 Maintainer: Felipe Torrezan <felipe.torrezan@iar.com>
 Architecture: amd64
 Version: 9.50.1
-Depends: libc6
+Depends: libc6, bxarm-compiler (=9.50.1), bxarm-debugger (=9.50.1)
 Filename: pool/main/b/bxarm/bxarm_9.50.1-1_amd64.deb
-Size: 2634
-MD5sum: 0c80d40d4c4fc3778e1b3f26cda3b087
-SHA1: 0cbf6f4c60e5f8f7983f44d6460171e283e6b415
-SHA256: fc1756c32fc3268d12f7a0cb2039153dcc13e91e4f7e6bc299f356dd4292ae7e
-SHA512: c5f21219b4922656b7f92833f032d6451a34ab127d6ab3ac71069c2c5829341f73446ed22c8e8e8e6110dfa84677ed7b47ae07c17ce6b5509fe6d3de19b6ca4b
+Size: 584
+MD5sum: d822ea609073c1ef504435978da7480d
+SHA1: e1eee7f909038d160ad9e69a66dcd6eca210fa0e
+SHA256: f1ee405f866fa3a35dfbc5b2f688aea252567f137b928e37dd14f5a1a4c4a540
+SHA512: ac7afd7599a573ec5d25d24fffc058c1a43344282d3ec5fc152278eadd61a8e617fd37c42aac2c0ef69db4441cad156706524d12839c42b264b4b1cbd870126c
 Description: The best embedded compiler in the world
 Homepage: https://iar.com/bxarm
 
@@ -46,6 +46,22 @@ SHA512: e58258787bdb52f9982549b3429a95d33fd55752349ab5bd853b0c9e7ce34327ada0d6ed
 Description: The best embedded compiler in the world
 Homepage: https://iar.com/bxarm
 
+Package: bxarm-compiler
+Priority: optional
+Section: devel
+Maintainer: Felipe Torrezan <felipe.torrezan@iar.com>
+Architecture: amd64
+Version: 9.50.1
+Depends: libc6
+Filename: pool/main/b/bxarm-compiler/bxarm-compiler_9.50.1-1_amd64.deb
+Size: 7544
+MD5sum: 5102d2b7bac8fef437c565a6f8dc0aef
+SHA1: 6206d7de40aca35ef4dbead7d5a788af9707b66c
+SHA256: e68e782b5709e29684747d1b3eb71027128b2d99aae4d3771aa5772ceadf6d5a
+SHA512: b2888c781c0b3238bd9a0197feee471d58c5cd92afe0ea6b24556c3065a47a7f0688f8a0b3cee852694b64420c9fe17a94e7e8a6cd9a889f25906ca6537284f1
+Description: The best embedded compiler in the world
+Homepage: https://iar.com/bxarm
+
 Package: bxarm-debugger
 Priority: optional
 Section: devel
@@ -59,6 +75,22 @@ MD5sum: 5eeba9cec409dfc6ecd68a99367d45ba
 SHA1: cd8c64aae0fbaea517f30c976b9e5bf64f0af4e0
 SHA256: eef731c12f2685e74918b809f5205f174b13bb4487d255c4ca61214e770b98d3
 SHA512: 1eb140b20bf61103d428b17d3f0f8d4294c2ac635d8652468e55f8d275d4012e31baa3acb59d0cc9872b2bdb3c2ec2b02f6bca25ac4cabdea318a61d7cae618a
+Description: The best embedded debugger in the world
+Homepage: https://iar.com/bxarm
+
+Package: bxarm-debugger
+Priority: optional
+Section: devel
+Maintainer: Felipe Torrezan <felipe.torrezan@iar.com>
+Architecture: amd64
+Version: 9.50.1
+Depends: libc6
+Filename: pool/main/b/bxarm-debugger/bxarm-debugger_9.50.1-1_amd64.deb
+Size: 6194
+MD5sum: 24ba21bad99ea6f17ec43a7d78976603
+SHA1: e54175c1434ce3ef2381aad503ccfe7bad55e993
+SHA256: e27e73bf68d6fc90ec0f7b357f073973c3a03df8239ed5687dfebc192768f8a1
+SHA512: 9100bdd1b20c4ef704737189a7df5a7c0ef5dfac87d4007e2316c65a7fe747ad3e48e1a04964bc5e6b2873c86e562ddf40e1e8e2b3bc14ed4561f223eb9129ce
 Description: The best embedded debugger in the world
 Homepage: https://iar.com/bxarm
 
