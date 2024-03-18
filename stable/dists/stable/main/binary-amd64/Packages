@@ -4,13 +4,13 @@ Section: devel
 Maintainer: Felipe Torrezan <felipe.torrezan@iar.com>
 Architecture: amd64
 Version: 9.50.2
-Depends: libc6, lightlicensemanager (>=2.19.1)
+Depends: libc6, iar-license-manager (>=2.19.1)
 Filename: pool/main/b/bxarm/bxarm_9.50.2-1_amd64.deb
-Size: 6144
-MD5sum: d9a763dbbb159530c031d56506ef8389
-SHA1: 4d23665035eb8e19511ada91de99b8972b2c0789
-SHA256: 47427ee96fe4058f1668a701c413f87e6364bc282c386e5b4f12d083f676eefd
-SHA512: 1a8baed0cdbb9cb23658b1c245eceb73aa56c12192f46629da7d36d358a1df4f1405ecd98e6437563e72fa8671b363ee5cd185f42c8b686c50a50aeb19d9cd2a
+Size: 6138
+MD5sum: afec4886aa0ca9668d013b705c8ed0f2
+SHA1: 04e333c09e0b80ec0d8df51f245305690dff6f31
+SHA256: 980e4d20676b70cbe31d895e2e8caad2726c72e4081d894fdbbffe1f8001eeaf
+SHA512: f02a0f02fdfca087bc40710baea3bc51fa04b64466eaadc09f7dd31214f6427feec2bc779557416cc84a102d54bc0793305744714a07fad55a29bed9ac2e7810
 Description: The best embedded compiler in the world
 Homepage: https://iar.com/bxarm
 
@@ -22,11 +22,11 @@ Architecture: amd64
 Version: 9.50.1
 Depends: libc6, iar-license-manager (>=2.19.1)
 Filename: pool/main/b/bxarm/bxarm_9.50.1-1_amd64.deb
-Size: 6148
-MD5sum: b8c297bb79f5642068f30158ba6e9aab
-SHA1: 32d4393fc621784a0cb11d91bc96f04ec5544229
-SHA256: ac0fd172dce8df8679bf7328c89bd7f1fb83ebe42ec50404003fa8c3fc3ae0b9
-SHA512: 1fd5c4f2436b88ce099989b8996e510f13f8549625fe3838c9512f602b9635248156f09f952338d7e94424adc8f5cd7c9f2176b33974130f8eddffc11079d17f
+Size: 6150
+MD5sum: 05a60ff5f9fbd07ae1759cbd8e1cf785
+SHA1: b83df96ca99275205714030fd2bd7f742b5d82d7
+SHA256: ba88b415ed6644ab431af027512cd3771386ad01a786f00870d8d3d1daca51ed
+SHA512: ba3501f894fff1d4e64f42ddffffc406048c43b075c4c000633bf0c588ad49a004712b1e93863c4749b48fe27705ece71f832ef2eb2641681ad1c21247e2498f
 Description: The best embedded compiler in the world
 Homepage: https://iar.com/bxarm
 
@@ -39,10 +39,10 @@ Version: 9.50.2
 Depends: libc6, iar-license-manager (>=2.19.1)
 Filename: pool/main/b/bxarm-cspy/bxarm-cspy_9.50.2-1_amd64.deb
 Size: 4808
-MD5sum: 05e7394208716efeeab69803362d0bd4
-SHA1: 2b6351cafc3b8fe3aa5b7f0e9d4fe291fd8c8aac
-SHA256: fc3e998904d0b69a74428695f193574d2ee97d1a3dc020bcf40c1407d93cd999
-SHA512: b3a9477c41fa046ca45eeb34c031f4bc2815d792c06bc55744033f9e218d0912bd38e93c5d2ef5362a712f059972dea1d1c3f98260f239c1bad098c312d248ee
+MD5sum: 55bda5ae7bf0f2df46f4a4534b30fe11
+SHA1: a988374fc171eb15a0f8888ff9a84579649d8295
+SHA256: f252266360e755e405dc505176305252d7c606b34d897985a980545094d50586
+SHA512: 9c8ee8c1a968a2fc0efce5238e6eef887b08ac66d35db07851d5149ff8d0f89a967064ed1b3585b1419a874289cd782f393aebdb1e803aaf2857fac7ef096660
 Description: The best embedded debugger in the world
 Homepage: https://iar.com/bxarm
 
@@ -54,11 +54,11 @@ Architecture: amd64
 Version: 9.50.1
 Depends: libc6, iar-license-manager (>=2.19.1)
 Filename: pool/main/b/bxarm-cspy/bxarm-cspy_9.50.1-1_amd64.deb
-Size: 6070
-MD5sum: 764b6504dd711bd67cae66680e3af5d5
-SHA1: 511c1f3c4fff023822d164648d65ffebc2ed66f6
-SHA256: b1a6b5825fb1afdaba2a2507bb9c945f2ab0405846480d833800a53963685319
-SHA512: e9fc7417253956368907999ab340881dc52dcccd93937fc3cac3eeb7c842483b71b0809957fe2e3ad1ad71e82d43ce0d02e50c67c77b7357f2eb0e0d57d81041
+Size: 6072
+MD5sum: 094f610f96adc7ea72db77c12dd0ebb7
+SHA1: 2ee2d4f375532c76c7aebee341b460ce29cbc639
+SHA256: f98eefa6d42fdae90ee70c4611ec8f79bfce7e6a43ec0852bcd7467810cb0ade
+SHA512: deb5f2598e38a90dcfa817ea345766c519c7e12ee7e25f77d9d66eb1b65ad43e180c0641c47d6f41587597639eac9f25bd329f19c3a1a7e3ace4d729baab6dce
 Description: The best embedded debugger in the world
 Homepage: https://iar.com/bxarm
 
@@ -71,10 +71,10 @@ Version: 9.50.2
 Depends: libc6, bxarm (=9.50.2), bxarm-cspy (>=9.50.2), iar-license-manager (>=2.19.1)
 Filename: pool/main/b/bxarm-full/bxarm-full_9.50.2-1_amd64.deb
 Size: 612
-MD5sum: c9c9c0132ca48a8f4871b9da9d514d3a
-SHA1: 46c9bce1c07ceb24e90c7d2bc123f2244b9fa998
-SHA256: c6dc1c1eb5e4616b6484cbdb7c75985743641782040b68dd73d8e700f28e36bc
-SHA512: ca0ab82bc94d449cf8fb1f34223a8166971f4b05eba2a99581e1ce800b6279d863c24e2e98b0d2a224cb45ea6cf8262dfe259f1ce9faaebbc8b82be3e2da0913
+MD5sum: abdd53f76a4e6eb7aac84cac6b9762e3
+SHA1: 824991e818efc48f7e6ebf9f1027e38a69f29b0b
+SHA256: a0479631ecfb81cb575ab9747429fb1f777a44fb965685ff2832a717afac696e
+SHA512: e1650ee71612ab3a638425f54f6b96aa3d14b2157321d0af0c6782298bc84be091d6f49dc0c6323304d638f2a9788a50d839d13ae00cc1ca0c1f09f1dd250c16
 Description: The best embedded compiler in the world
 Homepage: https://iar.com/bxarm
 
@@ -86,11 +86,11 @@ Architecture: amd64
 Version: 9.50.1
 Depends: libc6, bxarm (=9.50.1), bxarm-cspy (>=9.50.1), iar-license-manager (>=2.19.1)
 Filename: pool/main/b/bxarm-full/bxarm-full_9.50.1-1_amd64.deb
-Size: 610
-MD5sum: 03c1410c6cc1b8cd2f9d77d58a93cfb9
-SHA1: 80df8ff3bc5af7cfd1d59d5e8c0c155ac805ce2c
-SHA256: 09043666f7bcb8a8052d8bb9d4a06984ff092483582763829127bc8454eb947d
-SHA512: 00549751aabdef0ad0afc86e62e1d4291aca08fee024747e65831271f479324b674b0709367c2acc8eeb2779383d9ae4f39e25ea0be5d3edd473ad1897a9ce32
+Size: 614
+MD5sum: b6f42e53a25a5844894a02d7bdf89a0f
+SHA1: 55cf9a596f19d1fe3eb6f8777b2b96bb610a6bbf
+SHA256: eead5f88d98d17019fc920c35c12d122b58f00cf4b6aec43ca6303b8d4f8ee66
+SHA512: e2bd6e282c6bed4db68d941037263d98aea42aa0f58589582a39f412b0cbb7fda041cb9db55a606a9d80939c2a2818fbfbb3619692d725d73e52a39cb337c736
 Description: The best embedded compiler in the world
 Homepage: https://iar.com/bxarm
 
